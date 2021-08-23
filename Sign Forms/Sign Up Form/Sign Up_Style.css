@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(Wallpaper.jpg);
+}
+
+                        /*Start Box Style*/
+
+.box {
+    width: 300px;
+    height: 600px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #e3f2fd;
+    text-align: center;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box h1 {
+    font-weight: 600px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.box input[type = "text"], .box input[type = "password"], .box input[type = "email"] {
+    border: 0;
+    background-color: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #1a237e;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 25px;
+    transition: .25s;
+}
+
+.box input[type = "text"]:focus, .box input[type = "password"]:focus, .box input[type = "email"]:focus {
+    width: 280px;
+    border-color: #c2185b;
+}
+
+.box input[type = "submit"] {
+    border: 0;
+    background-color: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #1a237e;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 25px;
+    transition: .25s;
+    cursor: pointer;
+}
+
+.box input[type = "submit"]:hover {
+    background-color: #1a237e;
+}
+
+                        /*End Box Style*/                   
+
+.Footer {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.inpute {
+    flex: 1 1 auto;
+}
